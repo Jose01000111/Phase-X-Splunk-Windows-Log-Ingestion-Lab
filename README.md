@@ -86,7 +86,7 @@ I quickly reviewed sample events to confirm ingestion before running more comple
 ### Step 5e — Run Basic Verification Searches
 I validated the core log types with SPL queries.  
 
-<img width="877" height="234" alt="MWFXrR3" src="https://github.com/user-attachments/assets/114b6057-a08c-4780-8769-22804a5dad6b" />
+<img width="670" height="224" alt="godGYvY" src="https://github.com/user-attachments/assets/c1be8b1f-2df0-489f-8ab4-47ca32cc1e9b" />
 
 **Windows Security**  
 I checked counts of login events by EventCode and verified successful versus failed logins.  
@@ -102,6 +102,9 @@ I examined firewall logs to see source, destination, and action counts.
 
 # 🛑 Shutdown Docker
 I stopped the Splunk container to safely close my lab environment.  
+
+<img width="448" height="122" alt="dcxwCNP" src="https://github.com/user-attachments/assets/93d2c90c-4ab3-4e39-b645-6df1d083edfa" />
+
 >- 🐳 Stopped the `splunk-lab` container  
 >- 🔄 Restarted later when resuming practice  
 >- ✅ Verified container status to ensure proper shutdown  
